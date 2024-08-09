@@ -16,13 +16,13 @@ from faster_whisper.utils import (  # pyright: ignore reportMissingTypeStubs
 
 TAGS = ["tiny", "base", "small", "medium", "large-v1", "large-v2", "large-v3"]
 TAG_TO_NAME = {
-    # "tiny": "faster-whisper/tiny",
+    "tiny": "faster-whisper/tiny",
     "base": "faster-whisper/base",
-    # "small": "faster-whisper/small",
-    # "medium": "faster-whisper/medium",
-    # "large-v1": "faster-whisper/large-v1",
-    # "large-v2": "faster-whisper/large-v2",
-    # "large-v3": "faster-whisper/large-v3",
+    "small": "faster-whisper/small",
+    "medium": "faster-whisper/medium",
+    "large-v1": "faster-whisper/large-v1",
+    "large-v2": "faster-whisper/large-v2",
+    "large-v3": "faster-whisper/large-v3",
 }
 
 

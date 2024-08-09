@@ -43,12 +43,9 @@ RUN --mount=type=cache,target=/root/.cache/pip \
     pip install -r /requirements.txt --no-cache-dir && \
     rm /requirements.txt
 
-# Copy and run script to fetch models
 COPY . /usr/src/app
 
 WORKDIR /usr/src/app
 
-# Load models to image
 RUN python src/build.py
-
 CMD ["python", "-u", "src/main.py"]
