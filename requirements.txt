@@ -1,2 +1,2 @@
 faster-whisper==0.10.1
-sprite-gpu>=0.0.5
+sprite-gpu>=0.0.6
