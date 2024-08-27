@@ -1,6 +1,6 @@
 # Faster Whisper
 
-Faster Whisper template of Datastone Sprite Serverless.
+Faster Whisper template of Datastone Spirit Serverless.
 
 ## Usage
 ### Config

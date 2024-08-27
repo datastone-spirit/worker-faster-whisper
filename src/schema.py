@@ -1,5 +1,5 @@
 from typing import Dict
-from sprite_gpu.utils import Schema
+from spirit_gpu.utils import Schema
 
 arg_audio = "audio"
 arg_audio_base64 = "audio_base64"

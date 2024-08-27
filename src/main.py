@@ -1,8 +1,8 @@
 from typing import Any, Dict
 
 import model
-from sprite_gpu import start
-from sprite_gpu.env import Env
+from spirit_gpu import start
+from spirit_gpu.env import Env
 
 Whisper = model.Models()
 

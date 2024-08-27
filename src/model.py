@@ -3,8 +3,8 @@ import os
 import tempfile
 from typing import Any, Dict, Iterator, List, Optional, Union
 
-from sprite_gpu import utils
-from sprite_gpu.log import logger
+from spirit_gpu import utils
+from spirit_gpu.log import logger
 import schema
 
 import numpy as np
