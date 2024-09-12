@@ -135,7 +135,7 @@ class FasterWhisper:
         else:
             translation = None
 
-        results = {
+        results : Dict[str, Any] = {
             "model": self.tag,
             "detected_language": info.language,
             "device": "cuda" if self.cuda else "cpu",

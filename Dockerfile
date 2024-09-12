@@ -47,5 +47,9 @@ COPY . /usr/src/app
 
 WORKDIR /usr/src/app
 
-RUN python src/build.py
-CMD ["python", "-u", "src/main.py"]
+# Load models to image
+RUN chmod +x scripts/build.sh
+RUN ./scripts/build.sh
+
+RUN chmod +x scripts/start.sh
+CMD ["./scripts/start.sh"]
